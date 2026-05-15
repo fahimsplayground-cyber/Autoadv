@@ -1,18 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
-    </Router>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>AutoAdv Project is Live!</h1>
+      <p>The foundation is ready. Now we start building the Auto-Purge and Ad features.</p>
+    </div>
   );
 }
 
 export default App;
-    
+  
